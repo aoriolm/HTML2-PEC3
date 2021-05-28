@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.outter-member {
+  @apply max-w-md bg-corporate-bg2 mt-10 lg:mx-6 2xl:mx-12;
+}
+
+.inner-member {
+  @apply max-w-md bg-corporate-bg2 lg:mx-6 2xl:mx-0;
+}
+
+.h2-text {
+  @apply text-4xl font-semibold mt-3;
+}
+
+.h3-text {
+  @apply text-3xl font-semibold mt-3;
+}
